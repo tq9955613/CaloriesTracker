@@ -3,19 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import { makeServer } from "./server"
 import axios from "axios"
+
+import { Provider } from 'react-redux'
+import store from './store'
+
+import { menuInit, menuAdded, fetchMenu } from './features/menu/menuSlice'
 
 if (process.env.NODE_ENV === "development") {
   makeServer({ environment: "development" })
 
-  test()
+  // store.dispatch(fetchMenu())
+
+  //test()
 
   async function test() {
     let url = '/api/meals'
 
     // get inital meals
-    getMeals()
+    const { meals } = await getMeals()
+    store.dispatch(menuInit(meals))
 
     // add test
     let newMeal = {
@@ -42,7 +51,8 @@ if (process.env.NODE_ENV === "development") {
 
     async function getMeals() {
       let {data} = await axios.get(url)
-      return console.log(data)
+      return data
+      // return console.log(data)
     }
   }
 }
@@ -50,7 +60,9 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

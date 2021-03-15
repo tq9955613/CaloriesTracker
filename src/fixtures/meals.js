@@ -1,4 +1,4 @@
-export default [
+const menu = [
   // {name: "", calories: },
   // macdonald
   {name: "大麥克", calories: 548},
@@ -32,3 +32,5 @@ export default [
   {name: "雪碧(中)", calories: 163},
   {name: "冰檸檬紅茶(中)", calories: 117},
 ]
+
+export default menu
