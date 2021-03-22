@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CaloriesTracker/static/css/main.7a1070b0.chunk.css",
-    "main.js": "/CaloriesTracker/static/js/main.0547ce0d.chunk.js",
-    "main.js.map": "/CaloriesTracker/static/js/main.0547ce0d.chunk.js.map",
-    "runtime-main.js": "/CaloriesTracker/static/js/runtime-main.844ef4aa.js",
-    "runtime-main.js.map": "/CaloriesTracker/static/js/runtime-main.844ef4aa.js.map",
-    "static/js/2.5e8f40b6.chunk.js": "/CaloriesTracker/static/js/2.5e8f40b6.chunk.js",
-    "static/js/2.5e8f40b6.chunk.js.map": "/CaloriesTracker/static/js/2.5e8f40b6.chunk.js.map",
-    "static/js/3.8af00410.chunk.js": "/CaloriesTracker/static/js/3.8af00410.chunk.js",
-    "static/js/3.8af00410.chunk.js.map": "/CaloriesTracker/static/js/3.8af00410.chunk.js.map",
-    "index.html": "/CaloriesTracker/index.html",
-    "static/css/main.7a1070b0.chunk.css.map": "/CaloriesTracker/static/css/main.7a1070b0.chunk.css.map",
-    "static/js/2.5e8f40b6.chunk.js.LICENSE.txt": "/CaloriesTracker/static/js/2.5e8f40b6.chunk.js.LICENSE.txt"
+    "main.css": "/mirage-pages/static/css/main.85821e7b.chunk.css",
+    "main.js": "/mirage-pages/static/js/main.bf146154.chunk.js",
+    "main.js.map": "/mirage-pages/static/js/main.bf146154.chunk.js.map",
+    "runtime-main.js": "/mirage-pages/static/js/runtime-main.9e7a05fb.js",
+    "runtime-main.js.map": "/mirage-pages/static/js/runtime-main.9e7a05fb.js.map",
+    "static/js/2.5e8f40b6.chunk.js": "/mirage-pages/static/js/2.5e8f40b6.chunk.js",
+    "static/js/2.5e8f40b6.chunk.js.map": "/mirage-pages/static/js/2.5e8f40b6.chunk.js.map",
+    "static/js/3.8af00410.chunk.js": "/mirage-pages/static/js/3.8af00410.chunk.js",
+    "static/js/3.8af00410.chunk.js.map": "/mirage-pages/static/js/3.8af00410.chunk.js.map",
+    "index.html": "/mirage-pages/index.html",
+    "static/css/main.85821e7b.chunk.css.map": "/mirage-pages/static/css/main.85821e7b.chunk.css.map",
+    "static/js/2.5e8f40b6.chunk.js.LICENSE.txt": "/mirage-pages/static/js/2.5e8f40b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.844ef4aa.js",
+    "static/js/runtime-main.9e7a05fb.js",
     "static/js/2.5e8f40b6.chunk.js",
-    "static/css/main.7a1070b0.chunk.css",
-    "static/js/main.0547ce0d.chunk.js"
+    "static/css/main.85821e7b.chunk.css",
+    "static/js/main.bf146154.chunk.js"
   ]
 }
